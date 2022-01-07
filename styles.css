@@ -1,0 +1,16 @@
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+    margin: 1rem 0rem;
+}
+
+#bill {
+    display: block;
+    padding: 1rem;
+}
+
+#cash {
+    display: block;
+    padding: 1rem;
+}

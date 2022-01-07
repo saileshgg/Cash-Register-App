@@ -13,7 +13,7 @@ function clickHandler() {
 
     if(billAmount < 0) {
         console.log("Invalid Input 1");
-    } else if(billAmount > cashAmount) {
+    } else if(billAmount > cas) {
         console.log("Invalid Input 2");
     }
     else {
