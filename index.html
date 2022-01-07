@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Cash Register</title>
 </head>
+
 <body>
     <div class="container">
         <h1>Cash Register Manager</h1>
@@ -18,9 +20,13 @@
         <label for="cash">Cash Amount</label>
         <input type="text" name="cash" id="cash">
 
+        
+
         <button id="check">Check</button>
 
+        <p id="error-message"></p>
         <table class="change-table">
+            <caption>Return Change :</caption>
             <tr>
                 <td>No. of Notes</td>
                 <td id="twoThousand"></td>
@@ -46,7 +52,8 @@
 
     </div>
 
-    
+
 </body>
 <script type="text/javascript" src="app.js"></script>
+
 </html>

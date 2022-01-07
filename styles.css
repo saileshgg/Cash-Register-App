@@ -1,3 +1,4 @@
+
 table, tr, td{
     border: 1px solid black;
     border-collapse: collapse;
@@ -7,10 +8,11 @@ table, tr, td{
 
 #bill {
     display: block;
-    padding: 1rem;
+    padding: 0.5rem;
+    width: 200px;
 }
 
 #cash {
     display: block;
-    padding: 1rem;
+    padding: 0.5rem;
 }
